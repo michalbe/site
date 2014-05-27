@@ -17,3 +17,9 @@ body {
   z-index: 100000;
   pointer-events: none;
 }
+
+#spaceship {
+  background-image: url('../img/space.jpg');
+  width: 3600px;
+  height: 1680px;
+}
