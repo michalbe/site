@@ -28,3 +28,45 @@ body {
   width: 3600px;
   height: 1680px;
 }
+
+.page {
+  width: 1200px;
+  height: 560px;
+  position: absolute;
+}
+
+#main-page {
+  background-color: #F00;
+  left: 1200px;
+  top: 560px;
+}
+
+#speakers-page {
+  background-color: #F0F;
+  left: 2400px;
+  top: 560px;
+}
+
+#venue-page {
+  background-color: #00F;
+  left: 0px;
+  top: 0px;
+}
+
+#agenda-page {
+  background-color: #0FF;
+  left: 0px;
+  top: 1320px;
+}
+
+#party-page {
+  background-color: #FF0;
+  left: 2400px;
+  top: 0px;
+}
+
+#buy-page {
+  background-color: #FFF;
+  left: 1200px;
+  top: 1320px;
+}
