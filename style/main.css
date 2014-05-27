@@ -14,4 +14,6 @@ body {
   margin-top: -280px;
   left: 50%;
   margin-left: -600px;
+  z-index: 100000;
+  pointer-events: none;
 }
