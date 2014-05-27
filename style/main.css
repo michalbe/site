@@ -2,20 +2,25 @@ body {
   margin: 0;
   padding: 0;
   overflow:hidden;
+  background-color: #000;
 }
 
+#cutter,
 #overlay {
   width: 1200px;
   height: 560px;
-  background-image: url('../img/overlay.png');
   position: absolute;
   overflow: hidden;
   top: 50%;
   margin-top: -280px;
   left: 50%;
   margin-left: -600px;
-  z-index: 100000;
   pointer-events: none;
+}
+
+#overlay {
+  z-index: 100000;
+  background-image: url('../img/overlay.png');
 }
 
 #spaceship {
