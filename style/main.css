@@ -70,13 +70,13 @@ body.buy-screen #spaceship {
 }
 
 #main-page {
-  background-color: #F00;
+  background-image: url('../img/main.jpg');
   left: 1200px;
   top: 560px;
 }
 
 #speakers-page {
-  background-color: #F0F;
+  background-image: url('../img/speakers.jpg');
   left: 2400px;
   top: 560px;
 }
@@ -88,19 +88,19 @@ body.buy-screen #spaceship {
 }
 
 #agenda-page {
-  background-color: #0FF;
+  background-image: url('../img/agenda.jpg');
   left: 0px;
   top: 1120px;
 }
 
 #party-page {
-  background-color: #FF0;
+  background-image: url('../img/party.jpg');
   left: 2400px;
   top: 0px;
 }
 
 #buy-page {
-  background-color: #FFF;
+  background-image: url('../img/buy.jpg');
   left: 1200px;
   top: 1120px;
 }
