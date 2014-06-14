@@ -104,3 +104,8 @@ body.buy-screen #spaceship {
   left: 1200px;
   top: 1120px;
 }
+
+#astronaut {
+  margin-left: 50px;
+  margin-top: 200px;
+}
