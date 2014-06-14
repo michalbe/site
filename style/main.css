@@ -28,7 +28,7 @@ body {
   position: absolute;
   width: 3600px;
   height: 1680px;
-  transition: top 1s ease 0.2s, left 1s ease 0.2s;
+  transition: top 0.5s ease 0.2s, left 1s ease 0.2s;
   top: 0px;
   left: 0px;
 }
@@ -82,7 +82,7 @@ body.buy-screen #spaceship {
 }
 
 #venue-page {
-  background-color: #00F;
+  background-image: url('../img/venue.jpg');
   left: 0px;
   top: 0px;
 }
