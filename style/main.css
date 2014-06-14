@@ -50,7 +50,7 @@ body.venue-screen #spaceship {
 
 body.agenda-screen #spaceship {
   left: 0px;
-  top: -1320px;
+  top: -1120px;
 }
 
 body.party-screen #spaceship {
@@ -60,7 +60,7 @@ body.party-screen #spaceship {
 
 body.buy-screen #spaceship {
   left: -1200px;
-  top: -1320px;
+  top: -1120px;
 }
 
 .page {
@@ -90,7 +90,7 @@ body.buy-screen #spaceship {
 #agenda-page {
   background-color: #0FF;
   left: 0px;
-  top: 1320px;
+  top: 1120px;
 }
 
 #party-page {
@@ -102,5 +102,5 @@ body.buy-screen #spaceship {
 #buy-page {
   background-color: #FFF;
   left: 1200px;
-  top: 1320px;
+  top: 1120px;
 }
