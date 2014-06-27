@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #000;
+  font-family: 'Oswald', sans-serif;
+}
+
+#cutter,
+#overlay {
+  width: 1200px;
+  height: 560px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  margin-top: -280px;
+  left: 50%;
+  margin-left: -600px;
+  pointer-events: none;
+}
+
+#overlay {
+  z-index: 100000;
+  background-image: url('../img/overlay.png');
+}
+
+#spaceship {
+  background-image: url('../img/space.jpg');
+  position: absolute;
+  width: 3600px;
+  height: 1680px;
+  transition: top 0.5s ease 0.2s, left 1s ease 0.2s;
+  top: 0px;
+  left: 0px;
+}
+
+body.main-screen #spaceship {
+  left: -1200px;
+  top: -560px;
+}
+
+body.speakers-screen #spaceship {
+  left: -2400px;
+  top: -560px;
+}
+
+body.venue-screen #spaceship {
+  left: 0px;
+  top: 0px;
+}
+
+body.agenda-screen #spaceship {
+  left: 0px;
+  top: -1120px;
+}
+
+body.party-screen #spaceship {
+  left: -2400px;
+  top: 0px;
+}
+
+body.buy-screen #spaceship {
+  left: -1200px;
+  top: -1120px;
+}
+
+.page {
+  width: 1200px;
+  height: 560px;
+  position: absolute;
+}
+
+#main-page {
+  background-image: url('../img/main.jpg');
+  left: 1200px;
+  top: 560px;
+}
+
+#speakers-page {
+  background-image: url('../img/speakers.jpg');
+  left: 2400px;
+  top: 560px;
+}
+
+#venue-page {
+  background-image: url('../img/venue.jpg');
+  left: 0px;
+  top: 0px;
+}
+
+#agenda-page {
+  background-image: url('../img/agenda.jpg');
+  left: 0px;
+  top: 1120px;
+}
+
+#party-page {
+  background-image: url('../img/party.jpg');
+  left: 2400px;
+  top: 0px;
+}
+
+#buy-page {
+  background-image: url('../img/buy.jpg');
+  left: 1200px;
+  top: 1120px;
+}
+
+#astronaut {
+  margin-left: 50px;
+  margin-top: 200px;
+}
