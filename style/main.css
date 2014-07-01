@@ -1,3 +1,11 @@
 body {
   background-image: url('../img/space.jpg');
+  text-align: center;
+}
+
+#spaceship {
+  background-image: url('../img/space_ship.png');
+  width: 1200px;
+  height: 4416px;
+  margin: auto;
 }
