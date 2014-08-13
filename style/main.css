@@ -1,14 +1,41 @@
 body {
-  background-image: url('../img/space.jpg');
+  background-image: url('../img/bg.png');
   text-align: center;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
-#spaceship {
-  background-image: url('../img/space_ship.png');
-  width: 1200px;
-  height: 4416px;
-  margin: 50px auto;
+#guy {
+  background-image: url('../img/guy.png');
+  width: 181px;
+  height: 202px;
+  margin-top: 150px;
+  display: inline-block;
+}
+
+#info {
+  display: inline-block;
+  background-image: url('../img/info.png');
+  width: 482px;
+  height: 250px;
+  transform: translateY(-50px);
+  position: relative;
+}
+
+.social {
+  position: absolute;
+  top: 180px;
+}
+
+.social[type="twt"] {
+  left: 140px;
+}
+
+.social[type="lnrd"] {
+  left: 210px;
+}
+
+.social[type="fb"] {
+  left: 280px;
 }
